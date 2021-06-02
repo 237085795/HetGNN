@@ -28,7 +28,7 @@ parser.add_argument('--embed_d', type = int, default = 128,
 			   help = 'embedding dimension')
 
 args = parser.parse_args()
-print(args)
+# print(args)
 
 
 def a_a_collab_feature_setting():

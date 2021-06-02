@@ -31,4 +31,3 @@ model = Word2Vec(walk_corpus, size = dimen, window = window, min_count = 0, work
 print("Output...")
 model.wv.save_word2vec_format("../data/academic/node_embedding.txt")
 # model.wv.save_word2vec_format("../data/academic_test/node_net_embedding.txt")
-

@@ -16,7 +16,9 @@ parser.add_argument('--P_n', type = int, default = 21044,
                help = 'number of paper node')
 parser.add_argument('--V_n', type = int, default = 18,
                help = 'number of venue node')
-parser.add_argument('--data_path', type = str, default = '../data/academic_test/',
+# parser.add_argument('--data_path', type = str, default = '../data/academic_test/',
+#                    help='path to data')
+parser.add_argument('--data_path', type = str, default = '../data/academic/',
                    help='path to data')
 parser.add_argument('--embed_d', type = int, default = 128,
                help = 'embedding dimension')

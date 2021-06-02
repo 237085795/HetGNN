@@ -368,5 +368,5 @@ class input_data(object):
 # input_data_class.a_v_train_test() #generate author-venue data
 
 a=input_data(args)
-# a.a_v_train_test()
+a.a_v_train_test()
 
